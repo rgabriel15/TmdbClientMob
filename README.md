@@ -1,5 +1,5 @@
 # Intro
-RgImdb is a Xamarin.Forms (Android) client app that uses the "The Movie Data Base" (TMDb) API.
+TmdbClientMob is a Xamarin.Forms (Android) client app that uses the "The Movie Data Base" (TMDb) API.
 
 # Modules
 ## Upcoming Movies
