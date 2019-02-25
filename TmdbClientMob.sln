@@ -5,7 +5,20 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TmdbClientMob.Android", "TmdbClientMob\TmdbClientMob.Android\TmdbClientMob.Android.csproj", "{79D05AFE-DE0A-4812-BAA2-51E3DC57F5F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TmdbClientMob", "TmdbClientMob\TmdbClientMob\TmdbClientMob.csproj", "{904125C3-8E48-4ECC-91DC-C817BCDDCF8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TmdbClientMob", "TmdbClientMob\TmdbClientMob\TmdbClientMob.csproj", "{904125C3-8E48-4ECC-91DC-C817BCDDCF8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{4C7B54AB-7397-4B87-AD40-C4DE139BFAA0}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\TmdbClientMob_MovieDetailScreen.png = ..\..\TmdbClientMob_MovieDetailScreen.png
+		..\..\TmdbClientMob_SerachMovieScreen.png = ..\..\TmdbClientMob_SerachMovieScreen.png
+		..\..\TmdbClientMob_SplashScreen.png = ..\..\TmdbClientMob_SplashScreen.png
+		..\..\TmdbClientMob_UpcomingMoviesScreen.png = ..\..\TmdbClientMob_UpcomingMoviesScreen.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E272E95-EAF1-438D-A039-0B796313ACBA}"
+	ProjectSection(SolutionItems) = preProject
+		..\RgImdbXF\README.md = ..\RgImdbXF\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +41,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C7B54AB-7397-4B87-AD40-C4DE139BFAA0} = {6E272E95-EAF1-438D-A039-0B796313ACBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {838ED16D-12E8-48C1-9620-5234F826C655}
